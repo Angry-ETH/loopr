@@ -9,6 +9,7 @@ edition = "2024_07"
 starknet = "2.11.2"
 openzeppelin_access = "1.0.0"
 openzeppelin_token = "1.0.0"
+openzeppelin_utils = "1.0.0"
 alexandria_storage = { version = "0.3.0", features = ["starknet"] }
 
 [dev-dependencies]
