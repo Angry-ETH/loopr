@@ -1,0 +1,21 @@
+{
+    // 使用 ESLint 而不是默认 Prettier 插件来格式化
+    "editor.formatOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "prettier.enableDebugLogs": false,
+    "eslint.nodePath": "./node_modules",
+    // 使用 ESLint 来格式化代码
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "editor.formatOnSave": true,
+    // "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.fixAll.eslint": "always"
+    },
+    "eslint.alwaysShowStatus": true,
+}

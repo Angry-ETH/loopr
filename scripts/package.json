@@ -1,0 +1,27 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chain": "starknet-devnet --seed 0",
+    "deploy": "node deploy",
+    "deploy:loc": "dotenv -e .env.local -- node deploy",
+    "deploy:main": "DOTENV_CONFIG_PATH=.env.main node --import dotenv/config deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "abi-wan-kanabi": "^2.2.4",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "ora": "^8.2.0",
+    "scripts": "file:",
+    "starknet": "^7.0.1"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^8.0.0",
+    "prettier": "3.1.1"
+  }
+}
